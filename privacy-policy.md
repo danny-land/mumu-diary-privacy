@@ -44,9 +44,9 @@ o	使用场景：当您开启应用的生物识别锁功能时。您的生物特
 
 6、网络权限（INTERNET）
 
-o	目的：用于检查应用更新、提供匿名化崩溃报告以改善应用稳定性。
+o	目的：当您主动选择在日记中添加位置信息时，将您的设备位置坐标（经纬度）发送至第三方地址解析服务（BigDataCloud 及 OpenStreetMap Nominatim），以将坐标转换为可读的地址信息（如省、市、区）。解析完成后，坐标数据不会被留存。
 
-o	使用场景：应用启动或后台检查更新时，不会传输任何个人数据。
+o	使用场景：仅在您主动点击「定位」功能时触发，默认不会发送任何网络请求。如您未使用定位功能，本应用不会产生任何网络数据传输。
 
 二、我们如何存储您的信息
 
@@ -72,7 +72,7 @@ o	使用场景：应用启动或后台检查更新时，不会传输任何个人
 
 •	访问与更正：您可以在应用内直接访问和编辑您的所有日记数据。
 
-•	删除：您可以随时删除任意日记条目或附件，也可以通过卸载应用彻底清除所有本地数据。
+•	删除：您可以随时删除任意日记条目或附件，也可以通过卸载应用彻底清除所有本地数据。本应用不存在服务器端账号体系，所有数据均仅存储于您的本地设备，卸载应用即可永久删除全部数据，无需向我们提交额外申请。
 
 •	撤销权限：您可以在设备的“设置”中随时关闭已授予的任何权限。
 
@@ -136,9 +136,9 @@ o	When: When you enable biometric lock. Your biometric data is processed solely 
 
 •	Network Permission (INTERNET)
 
-o	Purpose: To check for app updates and send anonymous crash reports for stability improvements.
+o	Purpose: When you actively choose to add a location tag to a diary entry, your device's approximate GPS coordinates (latitude and longitude) are sent to third-party reverse geocoding services — BigDataCloud and OpenStreetMap Nominatim — to convert the coordinates into a human-readable address (e.g., city, district). The coordinates are not retained by these services beyond the duration of the request.
 
-o	When: During startup or background checks. No personal data is transmitted.
+o	When: Only triggered when you actively tap the "Location" button. No network requests are made by default. If you do not use the location feature, no data is transmitted over the network.
 
 2. Data Storage
 
@@ -164,7 +164,7 @@ You have the following rights regarding your personal information:
 
 •	Access and Correction: You can access and edit all your diary data directly within the app.
 
-•	Deletion: You can delete any diary entry or attachment at any time, or uninstall the app to erase all local data completely.
+•	Deletion: You can delete any diary entry or attachment at any time, or uninstall the app to erase all local data completely. MuMu Journal has no server-side account system. All data exists solely on your local device. Uninstalling the app permanently deletes all data — no additional request to us is required.
 
 •	Permission Revocation: You can disable any previously granted permission in your device's Settings at any time.
 
